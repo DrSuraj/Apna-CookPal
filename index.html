@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookpal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Bai+Jamjuree&family=Krub:wght@600&family=Montserrat&family=Poppins&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Bai+Jamjuree&family=Inter&family=Krub:wght@600&family=Montserrat&family=Poppins&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div id="drawer">
+            <div>
+                <img src="./images/menu.png" id="drawer-icon">
+            </div>
+            <img src="./images/Cookpal 1.png">
+        </div>
+        <div id="menu">
+            <div id="menu-text">
+                <span>Home</span>
+                <span>Explore</span>
+                <span>Help</span>
+            </div>
+            <img src="./images/Ellipse 2.png">
+        </div>
+        <div id="drawer-menu">
+            <div>
+                <img src="./images/Cookpal 1.png">
+                <img src="./images/Ellipse 2.png">
+            </div>
+            <span>Home</span>
+            <span>Explore</span>
+            <span>Help</span>
+        </div>
+        <div id="dummy">
+        </div>
+    </nav>
+    <section id="hero">
+        <!-- <img src="./images/Rectangle 20.png"> -->
+        <div>
+            <div id="hero-content">
+                <p>Trending now</p>
+                <p>Mike's famous salad with cheese</p>
+                <p>By John Mike</p>
+            </div>
+        </div>
+    </section>
+    <section id="search">
+        <span>Search For Recipes</span>
+        <div id="search-input">
+            <div id="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Search for recipes..">
+            </div>
+            <div id="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div id="search-filter">
+            <span class="filter" id="show-all-recipes">All Recipes<i class="fa-solid fa-angle-right"></i></span>
+            <span class="filter" id="show-veg-recipes">Veg Recipes Only<i class="fa-solid fa-angle-right"></i></span>
+            <span class="filter" id="show-non-veg-recipes">Non Veg Recipes<i class="fa-solid fa-angle-right"></i></span>
+        </div>
+    </section>
+    <section id="All-recipes">
+        <div id="filter">
+            <p id="filter-head">Filters</p>
+            <div id="filter-base">
+                <p>Rating</p>
+                <div>
+                <div>
+                    <input type="checkbox" id="above4" name="above4" value="above4">
+                    <label for="above4" id="above4">4 and Above</label><br>
+                </div>
+                <div>
+                    <input type="checkbox" id="below4" name="below4" value="below4">
+                    <label for="below4" id="below4">Below 4</label><br>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="Recipes">
+        </div>
+    </section>
+    <footer>
+        <div>
+            <div>
+                <img src="./images/Cookpal 1.png">
+                <span>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function.
+                    Join our community and let's cook together!</span>
+            </div>
+            <div>
+                <span>Company</span>
+                <span>Home</span>
+                <span>Explore</span>
+                <span>team</span>
+                <span>About us</span>
+                <span>Activity</span>
+            </div>
+            <div>
+                <span>Resources</span>
+                <span>Blog</span>
+                <span>Use Cases</span>
+                <span>Testimonials</span>
+                <span>Insights</span>
+            </div>
+            <div>
+                <img src="./images/Cookpal 1.png">
+                <span>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</span>
+                <div>
+                    <div id="email">
+                        <input placeholder="Your Email">
+                        <i class="fa-solid fa-at"></i>
+                    </div>
+                    <span id="subscribe">Subscribe</span>
+                </div>
+            </div>
+        </div>
+        <div id="social-media">
+            <div>
+                <i class="fa-brands fa-instagram fa-l"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-twitter fa-l"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-linkedin-in fa-l"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+
+</html>
